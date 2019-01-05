@@ -977,7 +977,6 @@ qint32 PlayQueueModel::getSongId(const QString &file) const
         check.album=q.queryItemValue("album");
         check.artist=q.queryItemValue("artist");
         check.albumartist=q.queryItemValue("albumartist");
-        check.album=q.queryItemValue("album");
         check.title=q.queryItemValue("title");
         check.disc=q.queryItemValue("disc").toUInt();
         check.track=q.queryItemValue("track").toUInt();
